@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>GirisServlet</display-name>
+    <servlet-name>GirisServlet</servlet-name>
+    <servlet-class>com.servletler.GirisServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GirisServlet</servlet-name>
+    <url-pattern>/Giris</url-pattern>
+  </servlet-mapping>
 </web-app>
